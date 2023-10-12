@@ -27,3 +27,6 @@ with open('saida.json', 'w') as json_file:
     json.dump(data, json_file, indent=4, default=date_converter)
 
 print("Conversão concluída. Os dados foram salvos em 'saida.json'.")
+
+soma_valores = sum(item['Valor (em R$)'] for item in data)
+print(f'Soma dos valores: {soma_valores}')
