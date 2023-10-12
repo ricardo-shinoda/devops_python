@@ -23,8 +23,9 @@ def date_converter(o):
 data = df.to_dict(orient='records')
 
 # Escreva o dicionário em um arquivo JSON com a função de conversão de data
-with open('saida.json', 'w') as json_file:
-    json.dump(data, json_file, indent=4, default=date_converter)
+with open('saida.json', 'w', encoding='utf-8') as json_file:
+    json.dump(data, json_file, indent=4,
+              default=date_converter, ensure_ascii=False)
 
 print("Conversão concluída. Os dados foram salvos em 'saida.json'.")
 
