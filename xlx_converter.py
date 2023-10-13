@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 # Carregue o arquivo .xlsx em um DataFrame do pandas
-df = pd.read_excel('september-invoice.xlsx')
+df = pd.read_excel('invoice.xlsx')
 
 # Converta a coluna "Data de Compra" para o formato de data (se necessário)
 df['Data de Compra'] = pd.to_datetime(df['Data de Compra'], errors='coerce')
