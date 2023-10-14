@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Run My Python Script",
+			"type": "python",
+			"request": "launch",
+			"program": "${file}",
+			"pythonPath": "/path/to/python3"
+		}
+	]
+}
