@@ -90,7 +90,7 @@ if __name__ == "__main__":
     pdf_file_name = "2023-09.pdf"  # PDF file name
     # Construct the absolute path
     pdf_file_path = os.path.join(script_dir, pdf_file_name)
-    password = 'your_password_here'  # Replace with the actual password
+    password = '6993'  # Replace with the actual password
 
     transaction_data = extract_transaction_data(pdf_file_path, password)
 
