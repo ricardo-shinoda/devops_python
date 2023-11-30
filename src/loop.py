@@ -12,3 +12,11 @@ for i, fruits in enumerate(fruits):
     print(f'Index {i}: {fruits}')
 
 # While loop
+
+max_devices = 5
+i = 1
+
+while i < max_devices:
+    print(f"Your number of devices registered is {i}")
+    i = i + 1
+print("User has reached max number os connected devices")
